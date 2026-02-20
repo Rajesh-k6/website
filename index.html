@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AI Images</title>
+    <title>AI Sites Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
 
-<h2>5 AI Photos</h2>
+    <h1>AI Website Photos</h1>
 
-<img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" width="250">
-<img src="https://images.unsplash.com/photo-1675557009875-3a6c8c6f0b6a" width="250">
-<img src="https://images.unsplash.com/photo-1674027392847-5c1f3c6c0f5b" width="250">
-<img src="https://images.unsplash.com/photo-1677442135703-1787eea5c3c0" width="250">
-<img src="https://images.unsplash.com/photo-1676299081847-824f63b3e9f3" width="250">
+    <div class="gallery">
+        <img src="https://source.unsplash.com/400x300/?artificial-intelligence" alt="AI 1">
+        <img src="https://source.unsplash.com/400x300/?robot" alt="AI 2">
+        <img src="https://source.unsplash.com/400x300/?machine-learning" alt="AI 3">
+        <img src="https://source.unsplash.com/400x300/?technology,ai" alt="AI 4">
+        <img src="https://source.unsplash.com/400x300/?neural-network" alt="AI 5">
+        <img src="https://source.unsplash.com/400x300/?data-science" alt="AI 6">
+        <img src="https://source.unsplash.com/400x300/?automation" alt="AI 7">
+        <img src="https://source.unsplash.com/400x300/?future-tech" alt="AI 8">
+        <img src="https://source.unsplash.com/400x300/?cyber-technology" alt="AI 9">
+        <img src="https://source.unsplash.com/400x300/?ai-robot" alt="AI 10">
+    </div>
 
 </body>
 </html>
